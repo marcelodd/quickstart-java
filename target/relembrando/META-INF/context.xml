@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/relembrando">
+  <Manager pathname=""/>
+  <!-- disables storage of sessions across restarts -->
+  <Resource auth="Container" factory="org.jboss.weld.resources.ManagerObjectFactory" name="BeanManager" type="javax.enterprise.inject.spi.BeanManager"/>
+  <Resource auth="Container" charSet="ISO8859_1" driverClassName="com.mysql.jdbc.Driver" maxActive="8" maxIdle="20" maxWaitMillis="10000" name="jdbc/PedidoDS" password="root" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/aulas_java?zeroDateTimeBehavior=convertToNull" username="root" validationQuery="select 1"/>
+</Context>

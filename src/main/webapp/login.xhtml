@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui">
+
+    <h:head>
+        <meta http-equiv="Conte-Type" content="text/html; charset=UTF-8"/>
+        <title>Login</title>
+        <h:outputStylesheet name="css/sistema.css"/>
+    </h:head>
+
+    <h:body>
+        <div id="div-login">
+            <h1>Login</h1>
+            <h:form id="frmLogin">
+                <h:panelGrid columns="2" styleClass="panel-login">
+                    <h:outputLabel value="E-mail"/>
+                    <p:inputText size="30"/>
+                    
+                    <h:outputLabel value="Senha"/>
+                    <p:password size="30"/>
+                    
+                    <h:panelGroup/>
+                    <p:commandButton value="Login"/>
+                </h:panelGrid>
+            </h:form>
+        </div>
+    </h:body>
+
+</html>

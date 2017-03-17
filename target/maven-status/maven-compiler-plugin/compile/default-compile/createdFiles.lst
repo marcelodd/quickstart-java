@@ -1,0 +1,14 @@
+model/PedidoItemId.class
+model/Pedido.class
+com/mycompany/relembrando/Brasil.class
+com/mycompany/relembrando/FormatadorData.class
+com/mycompany/relembrando/NotificadorEmail.class
+com/mycompany/relembrando/NotificadorSMS.class
+com/mycompany/relembrando/CalculadoraPreco.class
+model/PedidoItem.class
+com/mycompany/relembrando/PrecoProdutoBean.class
+model/Cliente.class
+model/Produto.class
+com/mycompany/relembrando/Notificador.class
+com/mycompany/relembrando/TesteJPA.class
+com/mycompany/relembrando/Urgente.class

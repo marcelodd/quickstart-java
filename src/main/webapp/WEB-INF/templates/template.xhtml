@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui">
+
+    <h:head>
+        <meta http-equiv="Conte-Type" content="text/html; charset=UTF-8"/>
+        <title><ui:insert name="title">Java CDI Hibernate JSF</ui:insert></title>
+        <h:outputStylesheet name="css/sistema.css"/>
+    </h:head>
+
+
+    <h:body>
+        <header class="header">
+            <div>
+                <h:link>
+                    <h:graphicImage height="30" library="img" name="logo.jpg"/>
+                </h:link>
+            </div>
+        </header>
+    </h:body>
+    
+    <div id="contet">
+        <ui:insert name="content"></ui:insert>
+    </div>
+    
+    <p:separator style="margin-top: 20px"/>
+    
+    <footer>
+        Rodapé
+    </footer>
+</html>
